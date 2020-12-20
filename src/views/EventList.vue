@@ -2,7 +2,7 @@
   <div>
     <h1>Events Listing</h1>
     <EventCard />
-    <BaseIcon />
+    <BaseIcon name:"users"/>
   </div>
 </template>
 <script>
