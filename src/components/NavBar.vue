@@ -17,7 +17,8 @@ export default {
 <style lang="css" scoped>
 .logo {
   font-size: 2rem;
-  color: grey;
+  color: #42b983;
+  text-decoration: none;
 }
 nav {
   display: flex;

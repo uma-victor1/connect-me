@@ -6,9 +6,7 @@
     <div class="Event">
       <span>@{{ Event.time }} on {{ Event.date }}</span>
       <h4>{{ Event.title }}</h4>
-      <span
-        >We have {{ Event.attendees.length }} people coming for the event</span
-      >
+      <BaseIcon name="users">{{ Event.attendees.length }} attending</BaseIcon>
     </div></router-link
   >
 </template>
@@ -34,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+.eventlink {
+  color: inherit;
+  text-decoration: none;
+}
 .Event {
   box-shadow: inset;
   border: 1px solid grey;
@@ -45,6 +47,6 @@ export default {
   transform: scale(1.05);
 }
 h4 {
-  color: greenyellow;
+  color: #7b9b8d;
 }
 </style>

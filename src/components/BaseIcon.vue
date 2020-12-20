@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <svg class="icon">
-      <use v-bind="{ 'xlink:href': '/feather-sprite.svg#' + name }" />
+  <div class="icon-wrapper">
+    <svg class="icon" :width="width" :height="height">
+      <use v-bind="{ 'xlink:href': '/feather-sprite.svg#' + name }"></use>
     </svg>
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'BaseIcon',
+  name: 'Icon',
   props: {
-    // eslint-disable-next-line vue/require-default-prop
     name: String,
     width: {
       type: [Number, String],
@@ -24,4 +24,20 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.icon {
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  margin-right: 6px;
+}
+</style>

@@ -19,7 +19,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #c9c9c9;
+  color: #505050;
   max-width: 750px;
   margin: auto;
 }
@@ -34,6 +34,6 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #7b9b8d;
 }
 </style>
