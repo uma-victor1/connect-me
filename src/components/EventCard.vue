@@ -1,12 +1,12 @@
 <template>
   <router-link
     class="eventlink"
-    :to="{ name: 'event-show', params: { id: '1' } }"
+    :to="{ name: 'event-show', params: { id: event.id } }"
   >
     <div class="Event">
-      <span>@{{ Event.time }} on {{ Event.date }}</span>
-      <h4>{{ Event.title }}</h4>
-      <BaseIcon name="users">{{ Event.attendees.length }} attending</BaseIcon>
+      <span>@{{ event.time }} on {{ event.date }}</span>
+      <h4>{{ event.title }}</h4>
+      <BaseIcon name="users">{{ event.attendees.length }} attending</BaseIcon>
     </div></router-link
   >
 </template>
@@ -14,18 +14,10 @@
 <script>
 export default {
   name: 'EventCard',
-  data() {
-    return {
-      Event: {
-        id: 1,
-        title: 'Beach cleanup',
-        date: '19th December 2020',
-        time: '6:00pm',
-        attendees: [
-          { id: 'abc123', name: 'Uma Victor' },
-          { id: 'def456', name: 'Marvel Ken' }
-        ]
-      }
+  props: {
+    // eslint-disable-next-line vue/require-default-prop
+    event: {
+      type: Object
     }
   }
 }
