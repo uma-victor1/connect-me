@@ -18,9 +18,13 @@ export default {
   },
   created() {
     // eslint-disable-next-line no-undef
-    EventService.getEvents().then(response => {
-      this.Event = response.data
-    })
+    EventService.getEvents()
+      .then(response => {
+        this.Event = response.data
+      })
+      .catch(error => {
+        console.log('There was an error:', error.response)
+      })
   }
 }
 </script>

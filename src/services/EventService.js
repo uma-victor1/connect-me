@@ -8,5 +8,8 @@ const axiosInstance = axios.create({
 export default {
   getEvents() {
     return axiosInstance.get('/events')
+  },
+  getEvent(id) {
+    return axiosInstance.get('/events/' + id)
   }
 }
