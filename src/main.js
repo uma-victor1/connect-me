@@ -41,7 +41,7 @@ requireComponent.keys().forEach(fileName => {
 })
 
 Vue.config.productionTip = false
-
+import 'tailwindcss/tailwind.css'
 new Vue({
   router,
   store,
