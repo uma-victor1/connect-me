@@ -45,9 +45,23 @@
 </template>
 <script>
 import Datepicker from 'vuejs-datepicker'
+const times = []
+for (var i = 0; i <= 24; i++) {
+  times.push(i + ':00')
+}
 export default {
   components: {
     Datepicker
+  },
+  data() {
+    return {
+      times
+    }
   }
 }
 </script>
+<style scoped>
+.field {
+  @apply mb-8;
+}
+</style>
