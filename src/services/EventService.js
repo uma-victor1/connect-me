@@ -11,5 +11,8 @@ export default {
   },
   getEvent(id) {
     return axiosInstance.get('/events/' + id)
+  },
+  postEvent(event) {
+    return axiosInstance.post('/events', event)
   }
 }
