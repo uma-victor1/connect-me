@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <h1>Create an Event</h1>
     <form @submit.prevent="createEvent">
       <label>Select a category</label>
@@ -52,6 +52,116 @@
 
       <input type="submit" class="button -fill-gradient" value="Submit" />
     </form>
+  </div> -->
+  <div class="mt-10 sm:mt-0">
+    <div class="md:grid md:grid-cols-3 md:gap-6">
+      <div class="md:col-span-1">
+        <div class="px-4 sm:px-0">
+          <h3 class="text-lg font-medium leading-6 text-gray-900">
+            Personal Information
+          </h3>
+          <p class="mt-1 text-sm text-gray-600">
+            Use a permanent address where you can receive mail.
+          </p>
+        </div>
+      </div>
+      <div class="mt-5 md:mt-0 md:col-span-2">
+        <form method="POST" @submit.prevent="createEvent">
+          <div class="shadow overflow-hidden sm:rounded-md">
+            <div class="px-4 py-5 bg-white sm:p-6">
+              <div class="grid grid-cols-6 gap-6">
+                <div class="col-span-6 sm:col-span-3">
+                  <label
+                    for="first_name"
+                    class="block text-sm font-medium text-gray-700"
+                    >Title</label
+                  >
+                  <input
+                    id="title"
+                    v-model="event.title"
+                    type="text"
+                    placeholder="Add an event title"
+                    name="title"
+                    autocomplete="title"
+                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  />
+                </div>
+
+                <div class="col-span-6 sm:col-span-3">
+                  <label
+                    for="description"
+                    class="block text-sm font-medium text-gray-700"
+                    >description</label
+                  >
+                  <input
+                    id="description"
+                    v-model="event.description"
+                    type="text"
+                    placeholder="Add a description"
+                    name="description"
+                    autocomplete="description"
+                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  />
+                </div>
+                <div class="col-span-6 sm:col-span-4">
+                  <label
+                    for="location"
+                    class="block text-sm font-medium text-gray-700"
+                    >location</label
+                  >
+                  <input
+                    id="description"
+                    v-model="event.location"
+                    type="text"
+                    placeholder="Add a location"
+                    name="location"
+                    autocomplete="location"
+                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  />
+                </div>
+                <div class="col-span-6 sm:col-span-3">
+                  <label
+                    for="date"
+                    class="block text-sm font-medium text-gray-700"
+                    >date</label
+                  >
+                  <datepicker
+                    v-model="event.date"
+                    placeholder="Select a date"
+                  />
+                </div>
+
+                <div class="col-span-6">
+                  <label
+                    for="time"
+                    class="block text-sm font-medium text-gray-700"
+                    >Time</label
+                  >
+                  <select
+                    id="time"
+                    name="time"
+                    autocomplete="time"
+                    class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  >
+                    <option v-for="time in times" :key="time">
+                      {{ time }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
+              <button
+                type="submit"
+                class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -60,6 +170,7 @@ import Datepicker from 'vuejs-datepicker'
 import { mapState } from 'vuex'
 export default {
   components: {
+    // eslint-disable-next-line vue/no-unused-components
     Datepicker
   },
   data() {
