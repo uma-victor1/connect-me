@@ -56,12 +56,40 @@
       ]
     },
     {
-      "/events": "",
-      "id": 8419989
+      "id": 8547015,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Trying to be a better frontend dev",
+      "description": "You can achieve this by doing this and that",
+      "location": "Rivers, Nigeria",
+      "date": "2020-12-10T16:34:00.000Z",
+      "time": "",
+      "attendees": []
     },
     {
-      "/events": "",
-      "id": 8419990
+      "id": 2565524,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Trying to be famous",
+      "description": " achieve this by doing this and that",
+      "location": "Uk, US, Canada",
+      "date": "2020-12-03T16:57:00.000Z",
+      "time": "",
+      "attendees": []
     }
   ]
 }

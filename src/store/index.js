@@ -16,8 +16,7 @@ export default new Vuex.Store({
       'community'
     ],
     events: [],
-    eventsTotal: 0,
-    event: {}
+    eventsTotal: 0
   },
   mutations: {
     ADD_EVENT(state, event) {
@@ -26,8 +25,9 @@ export default new Vuex.Store({
   },
   actions: {
     createEvent({ commit }, event) {
-      EventService.postEvent('/events', event)
-      commit('ADD_EVENT', event)
+      return EventService.postEvent(event).then(() => {
+        commit('ADD_EVENT', event)
+      })
     }
   },
   modules: {}
