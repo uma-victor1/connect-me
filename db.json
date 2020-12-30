@@ -19,6 +19,60 @@
       ]
     },
     {
+      "id": 5928104,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": [
+        "Cliff",
+        "Emma"
+      ]
+    },
+    {
+      "id": 5926101,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": [
+        "Cliff",
+        "Emma"
+      ]
+    },
+    {
+      "id": 4928101,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": "Adam",
+      "title": "Cat Cabaret",
+      "description": "Yay felines!",
+      "location": "Meow Town",
+      "date": "2019-01-03T21:54:00.000Z",
+      "time": "2:00",
+      "attendees": [
+        "Cliff",
+        "Emma"
+      ]
+    },
+    {
       "id": 8419988,
       "user": {
         "id": "abc123",
@@ -106,6 +160,24 @@
       "description": "deployed to fucking netlify bitch",
       "location": "Uk, US, Canada",
       "date": "2020-12-04T17:08:00.000Z",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 4430189,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "F to iug",
+      "description": "what ami doijng",
+      "location": "okoto, wahala",
+      "date": "2020-12-17T07:55:00.000Z",
       "time": "",
       "attendees": []
     }

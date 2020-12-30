@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <router-view />
+    <router-view :key="$route.fullPath" />
   </div>
 </template>
 
@@ -33,7 +33,10 @@ export default {
   font-weight: bold;
   color: #2c3e50;
 }
-
+a {
+  font-weight: bold;
+  color: #2c3e50;
+}
 #nav a.router-link-exact-active {
   color: #7b9b8d;
 }
