@@ -6,25 +6,16 @@
 </template>
 <script>
 import EventCard from '@/components/EventCard.vue'
-import EventService from '@/services/EventService.js'
+import { mapState } from 'vuex'
 export default {
   components: {
     EventCard
   },
-  data() {
-    return {
-      Event: []
-    }
-  },
+  computed: mapState({
+    Event: 'events'
+  }),
   created() {
-    // eslint-disable-next-line no-undef
-    EventService.getEvents()
-      .then(response => {
-        this.Event = response.data
-      })
-      .catch(error => {
-        console.log('There was an error:', error.response)
-      })
+    this.$store.dispatch('fetchEvents')
   }
 }
 </script>

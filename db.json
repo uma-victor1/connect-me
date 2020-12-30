@@ -90,6 +90,24 @@
       "date": "2020-12-03T16:57:00.000Z",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 7961663,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "deployment",
+      "description": "deployed to fucking netlify bitch",
+      "location": "Uk, US, Canada",
+      "date": "2020-12-04T17:08:00.000Z",
+      "time": "",
+      "attendees": []
     }
   ]
 }
