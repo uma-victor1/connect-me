@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="text-2xl text-gray-800 font-semibold mb-4">Events Listing</h1>
+    <h1 class="text-2xl text-gray-800 font-semibold mb-4">
+      Events Listing for {{ user.user.name }}
+    </h1>
     <EventCard v-for="event in Event" :key="event.id" :event="event" />
     <div class="text-green-500 mt-5">
       <template v-if="page != 1">
@@ -34,7 +36,8 @@ export default {
     },
     ...mapState({
       Event: 'events',
-      eventsTotal: 'eventsTotal'
+      eventsTotal: 'eventsTotal',
+      user: 'user'
     })
   },
   created() {
