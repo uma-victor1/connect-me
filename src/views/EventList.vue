@@ -4,7 +4,7 @@
       Events Listing for {{ user.user.name }}
     </h1>
     <EventCard v-for="event in Event.events" :key="event.id" :event="event" />
-    <div class="text-green-500 mt-5">
+    <div class="text-green-500 mt-5 mb-7">
       <template v-if="page != 1">
         <router-link
           :to="{ name: 'event-list', query: { page: page - 1 } }"

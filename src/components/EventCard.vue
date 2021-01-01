@@ -3,7 +3,7 @@
     class="eventlink"
     :to="{ name: 'event-show', params: { id: event.id } }"
   >
-    <div class="Event mb-4">
+    <div class="mb-4 shadow-md px-7 py-10 hover:shadow-xl">
       <span>@{{ event.time }} on {{ event.date }}</span>
       <h4>{{ event.title }}</h4>
       <BaseIcon name="users"
@@ -30,13 +30,7 @@ export default {
   color: inherit;
   text-decoration: none;
 }
-.Event {
-  box-shadow: inset;
-  border: 1px solid grey;
-  border-radius: 10px;
-  padding: 20px 35px;
-  text-align: left;
-}
+
 h4 {
   color: #7b9b8d;
 }

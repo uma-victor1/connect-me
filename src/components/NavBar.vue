@@ -1,13 +1,17 @@
 <template>
-  <nav>
-    <router-link class="text-xl text-green-600 font-medium" to="/"
-      >Connect-Me</router-link
+  <div>
+    <nav
+      class="flex justify-between p-2 text-gray-900 bg-white rounded-lg shadow-sm"
     >
-    <div id="nav">
-      <router-link :to="{ name: 'event-list' }">List</router-link> |
-      <router-link :to="{ name: 'event-create' }">Create</router-link>
-    </div>
-  </nav>
+      <router-link class="text-xl text-green-600 font-medium" to="/"
+        >Connect-Me</router-link
+      >
+      <div>
+        <router-link :to="{ name: 'event-list' }">List</router-link> |
+        <router-link :to="{ name: 'event-create' }">Create</router-link>
+      </div>
+    </nav>
+  </div>
 </template>
 
 <script>
@@ -16,9 +20,4 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-</style>
+<style lang="css" scoped></style>
