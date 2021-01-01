@@ -180,6 +180,60 @@
       "date": "2020-12-17T07:55:00.000Z",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 7473963,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "success",
+      "description": "You can achieve this by doing this and that",
+      "location": "okoto, wahala",
+      "date": "2021-01-05T17:01:00.000Z",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 1760127,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "omo",
+      "description": "what ami doijng",
+      "location": "Uk, US, Canada",
+      "date": "2021-01-06T17:04:00.000Z",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 5598922,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "my guy",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
