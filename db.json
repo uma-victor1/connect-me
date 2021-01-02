@@ -288,6 +288,24 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 7081070,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Responsive landing page made using just flexbox",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
