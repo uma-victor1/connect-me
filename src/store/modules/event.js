@@ -31,7 +31,7 @@ export const actions = {
       .catch(error => {
         const notification = {
           type: 'error',
-          message: 'Could not create event because' + error.message
+          message: 'Could not create event because ' + error.message
         }
         dispatch('notification/add', notification, { root: true })
         throw error

@@ -12,9 +12,9 @@ export const mutations = {
     })
   },
   REMOVE_NOTIFICATION(state, notificationToRemove) {
-    state.notifications.filter(notification => {
-      notification.id !== notificationToRemove.id
-    })
+    state.notifications = state.notifications.filter(
+      notification => notification.id !== notificationToRemove.id
+    )
   }
 }
 export const actions = {
