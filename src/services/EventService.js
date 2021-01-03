@@ -1,8 +1,18 @@
 import axios from 'axios'
+import Nprogress from 'nprogress'
 
 const axiosInstance = axios.create({
   baseURL: 'http://localhost:3000/',
   Headers: { Accept: 'application/json' }
+})
+
+axiosInstance.interceptors.request.use(config => {
+  Nprogress.start()
+  return config
+})
+axiosInstance.interceptors.response.use(config => {
+  Nprogress.done()
+  return config
 })
 
 export default {
