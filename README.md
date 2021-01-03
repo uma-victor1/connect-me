@@ -9,6 +9,10 @@ yarn install
 ```
 yarn serve
 ```
+### start json-server connecting to mock db.json database
+```
+npx json-server --watch db.json
+```
 
 ### Compiles and minifies for production
 ```
