@@ -3,7 +3,8 @@ import Nprogress from 'nprogress'
 
 const axiosInstance = axios.create({
   baseURL: 'http://localhost:3000/',
-  Headers: { Accept: 'application/json' }
+  Headers: { Accept: 'application/json' },
+  timeout: 10000
 })
 
 axiosInstance.interceptors.request.use(config => {
