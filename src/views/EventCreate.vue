@@ -14,40 +14,34 @@
           <div class="shadow overflow-hidden sm:rounded-md">
             <div class="px-4 py-5 bg-white sm:p-6">
               <div class="grid grid-cols-6 gap-6">
-                <div class="col-span-6 sm:col-span-3">
-                  <label
-                    for="first_name"
-                    class="block text-sm font-medium text-gray-700"
-                    >Title</label
-                  >
-                  <input
-                    id="title"
-                    v-model="event.title"
-                    type="text"
-                    placeholder="Add an event title"
-                    name="title"
-                    autocomplete="title"
-                    class="mt-1 px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                  />
-                </div>
+                <BaseInput
+                  id="title"
+                  v-model="event.title"
+                  label="title"
+                  type="text"
+                  placeholder="Add a title"
+                  name="title"
+                  autocomplete="title"
+                />
 
-                <BaseInput v-model="event.description" label="description" />
-                <div class="col-span-6 sm:col-span-4">
-                  <label
-                    for="location"
-                    class="block text-sm font-medium text-gray-700"
-                    >location</label
-                  >
-                  <input
-                    id="description"
-                    v-model="event.location"
-                    type="text"
-                    placeholder="Add a location"
-                    name="location"
-                    autocomplete="location"
-                    class="mt-1 px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                  />
-                </div>
+                <BaseInput
+                  id="description"
+                  v-model="event.description"
+                  label="description"
+                  type="text"
+                  placeholder="Add a description"
+                  name="description"
+                  autocomplete="description"
+                />
+                <BaseInput
+                  id="location"
+                  v-model="event.location"
+                  label="location"
+                  type="text"
+                  placeholder="Add a location"
+                  name="location"
+                  autocomplete="location"
+                />
                 <div class="col-span-6 sm:col-span-3">
                   <label
                     for="date"
@@ -69,6 +63,7 @@
                   >
                   <select
                     id="time"
+                    v-model="event.time"
                     name="time"
                     autocomplete="time"
                     class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
