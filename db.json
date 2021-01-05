@@ -378,6 +378,24 @@
       "date": "2021-01-06T06:27:00.000Z",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 6671840,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Jdjkfkf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
