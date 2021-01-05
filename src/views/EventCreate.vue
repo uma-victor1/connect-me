@@ -31,22 +31,7 @@
                   />
                 </div>
 
-                <div class="col-span-6 sm:col-span-3">
-                  <label
-                    for="description"
-                    class="block text-sm font-medium text-gray-700"
-                    >description</label
-                  >
-                  <input
-                    id="description"
-                    v-model="event.description"
-                    type="text"
-                    placeholder="Add a description"
-                    name="description"
-                    autocomplete="description"
-                    class="mt-1 px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                  />
-                </div>
+                <BaseInput v-model="event.description" label="description" />
                 <div class="col-span-6 sm:col-span-4">
                   <label
                     for="location"
