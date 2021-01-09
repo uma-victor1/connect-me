@@ -42,24 +42,11 @@
                   name="location"
                   autocomplete="location"
                 />
-                <div class="col-span-6">
-                  <label
-                    for="time"
-                    class="block text-sm font-medium text-gray-700"
-                    >categories</label
-                  >
-                  <select
-                    id="categories"
-                    v-model="event.category"
-                    name="categories"
-                    autocomplete="categories"
-                    class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                  >
-                    <option v-for="cat in categories" :key="cat">
-                      {{ cat }}
-                    </option>
-                  </select>
-                </div>
+                <BaseSelect
+                  v-model="event.category"
+                  label="What category"
+                  :options="categories"
+                />
                 <div class="col-span-6 sm:col-span-3">
                   <label
                     for="date"

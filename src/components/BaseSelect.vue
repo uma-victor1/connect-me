@@ -9,7 +9,15 @@
       v-bind="$attrs"
       class="mt-1 px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
       @input="updateValue"
-    ></select>
+    >
+      <option
+        v-for="option in options"
+        :key="option.id"
+        :value="option"
+        :selected="option === value"
+        >{{ option }}</option
+      ></select
+    >
   </div>
 </template>
 
@@ -21,7 +29,11 @@ export default {
       type: String,
       default: ''
     },
-    value: [String, Number]
+    value: [String, Number],
+    options: {
+      type: Array,
+      required: true
+    }
   },
   methods: {
     updateValue(event) {
