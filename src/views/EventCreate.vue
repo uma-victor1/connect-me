@@ -60,24 +60,11 @@
                   />
                 </div>
 
-                <div class="col-span-6">
-                  <label
-                    for="time"
-                    class="block text-sm font-medium text-gray-700"
-                    >Time</label
-                  >
-                  <select
-                    id="time"
-                    v-model="event.time"
-                    name="time"
-                    autocomplete="time"
-                    class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                  >
-                    <option v-for="time in times" :key="time">
-                      {{ time }}
-                    </option>
-                  </select>
-                </div>
+                <BaseSelect
+                  v-model="event.time"
+                  label="Select a time"
+                  :options="times"
+                />
               </div>
             </div>
             <div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
