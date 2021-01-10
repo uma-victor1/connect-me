@@ -22,7 +22,13 @@
                   placeholder="Add a title"
                   name="title"
                   autocomplete="title"
+                  @blur="$v.event.category.touch()"
                 />
+                <template v-if="$v.event.category.$error">
+                  <p v-if="!$v.event.category.required" class="text-red-500">
+                    Title is required
+                  </p>
+                </template>
 
                 <BaseInput
                   id="description"
@@ -79,10 +85,20 @@
 
 <script>
 import Datepicker from 'vuejs-datepicker'
-import {required} from 'vuelidate/lib/validators'
+import { required } from 'vuelidate/lib/validators'
 export default {
   components: {
     Datepicker
+  },
+  validations: {
+    event: {
+      category: { required },
+      title: { required },
+      description: { required },
+      location: { required },
+      date: { required },
+      time: { required }
+    }
   },
   data() {
     const times = []
