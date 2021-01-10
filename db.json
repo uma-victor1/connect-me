@@ -15,7 +15,7 @@
       "time": "2:00",
       "attendees": [
         "Cliff",
-        "Emma"
+        "yolo"
       ]
     },
     {
@@ -33,25 +33,7 @@
       "time": "2:00",
       "attendees": [
         "Cliff",
-        "Emma"
-      ]
-    },
-    {
-      "id": 5926101,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Cat Cabaret",
-      "description": "Yay felines!",
-      "location": "Meow Town",
-      "date": "2019-01-03T21:54:00.000Z",
-      "time": "2:00",
-      "attendees": [
-        "Cliff",
-        "Emma"
+        "sinzu"
       ]
     },
     {
@@ -69,7 +51,7 @@
       "time": "2:00",
       "attendees": [
         "Cliff",
-        "Emma"
+        "jules"
       ]
     },
     {
@@ -128,371 +110,7 @@
       "attendees": []
     },
     {
-      "id": 2565524,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Trying to be famous",
-      "description": " achieve this by doing this and that",
-      "location": "Uk, US, Canada",
-      "date": "2020-12-03T16:57:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 7961663,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "deployment",
-      "description": "deployed to fucking netlify bitch",
-      "location": "Uk, US, Canada",
-      "date": "2020-12-04T17:08:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 4430189,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "F to iug",
-      "description": "what ami doijng",
-      "location": "okoto, wahala",
-      "date": "2020-12-17T07:55:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 7473963,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "success",
-      "description": "You can achieve this by doing this and that",
-      "location": "okoto, wahala",
-      "date": "2021-01-05T17:01:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 1760127,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "omo",
-      "description": "what ami doijng",
-      "location": "Uk, US, Canada",
-      "date": "2021-01-06T17:04:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 5598922,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "my guy",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 6576547,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "F to iug",
-      "description": "what ami doijng",
-      "location": "Uk, US, Canada",
-      "date": "2021-01-05T16:32:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 5359025,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "F to iug",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 9424369,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "F to iug",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 7081070,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Responsive landing page made using just flexbox",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 107516,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Todo",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 5243436,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Todo",
-      "description": " achieve this by doing this and that",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 9474333,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Todo",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 5485873,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Jdjkfkf",
-      "description": "deployed to fucking netlify bitch",
-      "location": "Uk, US, Canada",
-      "date": "2021-01-06T06:27:00.000Z",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 6671840,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Jdjkfkf",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 540908,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "jkjjjj",
-      "description": "",
-      "location": "Uk, US, Canada",
-      "date": "2021-01-01T07:49:00.000Z",
-      "time": "",
-      "attendees": [],
-      "t": "ghttghhggg"
-    },
-    {
-      "id": 3876159,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "Responsive landing page made using just flexbox",
-      "description": "what ami doijng",
-      "location": "okoto, wahala",
-      "date": "2021-01-05T06:00:00.000Z",
-      "time": "11:00",
-      "attendees": []
-    },
-    {
-      "id": 5409449,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": [],
-      "categories": "sustainability"
-    },
-    {
-      "id": 3193809,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": [],
-      "categories": "sustainability"
-    },
-    {
-      "id": 9911059,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": [],
-      "categor": "community"
-    },
-    {
-      "id": 3372114,
+      "id": 4450732,
       "user": {
         "id": "abc123",
         "name": "Adam Jahr"
@@ -502,15 +120,33 @@
         "id": "abc123",
         "name": "Adam Jahr"
       },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
+      "title": "Responsive landing page made using just flexbox",
+      "description": " achieve this by doing this and that",
+      "location": "Rivers, Nigeria",
+      "date": "2021-01-01T07:51:00.000Z",
+      "time": "9:00",
       "attendees": []
     },
     {
-      "id": 4040939,
+      "id": 4575278,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Jdjkfkf",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "11:00",
+      "attendees": []
+    },
+    {
+      "id": 9159436,
       "user": {
         "id": "abc123",
         "name": "Adam Jahr"
@@ -520,47 +156,11 @@
         "id": "abc123",
         "name": "Adam Jahr"
       },
-      "title": "",
+      "title": "Todo",
       "description": "",
-      "location": "",
+      "location": "okoto, wahala",
       "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 7278452,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "sustainability",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
-      "attendees": []
-    },
-    {
-      "id": 3329850,
-      "user": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "category": "community",
-      "organizer": {
-        "id": "abc123",
-        "name": "Adam Jahr"
-      },
-      "title": "",
-      "description": "",
-      "location": "",
-      "date": "",
-      "time": "",
+      "time": "13:00",
       "attendees": []
     }
   ]
