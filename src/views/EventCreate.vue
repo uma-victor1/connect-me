@@ -79,6 +79,7 @@
 
 <script>
 import Datepicker from 'vuejs-datepicker'
+import {required} from 'vuelidate/lib/validators'
 export default {
   components: {
     Datepicker
