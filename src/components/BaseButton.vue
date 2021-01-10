@@ -1,9 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <button class="px-8 py-4" v-bind="$attrs" v-on="$listeners">
+      <slot />
+    </button>
+  </div>
 </template>
 
 <script>
-export default {}
+export default {
+  inheritAttrs: false
+}
 </script>
 
 <style scoped></style>
