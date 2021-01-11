@@ -27,6 +27,7 @@
 import EventCard from '@/components/EventCard.vue'
 import { mapState } from 'vuex'
 export default {
+  name: 'EventList',
   components: {
     EventCard
   },

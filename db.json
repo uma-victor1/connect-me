@@ -180,6 +180,100 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 5029450,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": {
+        "isTrusted": true
+      },
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": {
+        "isTrusted": true
+      },
+      "attendees": []
+    },
+    {
+      "id": 4216932,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "You can achieve this by doing this and that",
+      "location": "Uk, US, Canada",
+      "date": "2021-01-01T09:13:00.000Z",
+      "time": "21:00",
+      "attendees": []
+    },
+    {
+      "id": 1299685,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "",
+      "location": "",
+      "date": "2021-01-04T09:14:00.000Z",
+      "time": "3:00",
+      "attendees": []
+    },
+    {
+      "id": 5472640,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "You can achieve this by doing this and that",
+      "location": "okoto, wahala",
+      "date": "2021-01-01T09:16:00.000Z",
+      "time": "3:00",
+      "attendees": []
+    },
+    {
+      "id": 3823629,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "3:00",
+      "attendees": []
     }
   ]
 }
