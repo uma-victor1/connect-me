@@ -274,6 +274,78 @@
       "date": "",
       "time": "3:00",
       "attendees": []
+    },
+    {
+      "id": 1798454,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "",
+      "description": "You can achieve this by doing this and that",
+      "location": "okoto, wahala",
+      "date": "2021-01-03T08:01:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 4565178,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "",
+      "location": "",
+      "date": "2021-01-05T08:09:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 1465986,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "2021-01-01T08:14:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 1267470,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Jdjkfkf",
+      "description": "You can achieve this by doing this and that",
+      "location": "okoto, wahala",
+      "date": "2021-01-08T08:30:00.000Z",
+      "time": "6:00",
+      "attendees": []
     }
   ]
 }
