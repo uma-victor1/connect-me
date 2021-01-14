@@ -346,6 +346,42 @@
       "date": "2021-01-08T08:30:00.000Z",
       "time": "6:00",
       "attendees": []
+    },
+    {
+      "id": 1558397,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "F to iug",
+      "description": "what ami doijng",
+      "location": "Rivers, Nigeria",
+      "date": "2021-01-01T08:45:00.000Z",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 7919149,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Trying to be a better frontend dev",
+      "description": "",
+      "location": "Uk, US, Canada",
+      "date": "2021-01-02T08:46:00.000Z",
+      "time": "18:00",
+      "attendees": []
     }
   ]
 }
