@@ -22,10 +22,10 @@
                   placeholder="Add a title"
                   name="title"
                   autocomplete="title"
-                  @blur="$v.event.category.touch()"
+                  @blur="$v.event.title.$touch()"
                 />
-                <template v-if="$v.event.category.$error">
-                  <p v-if="!$v.event.category.required" class="text-red-500">
+                <template v-if="$v.event.title.$error">
+                  <p v-if="!$v.event.title.required" class="text-red-500">
                     Title is required
                   </p>
                 </template>

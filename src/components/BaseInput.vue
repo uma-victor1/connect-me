@@ -9,6 +9,7 @@
       v-bind="$attrs"
       class="mt-1 px-4 py-3 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
       @input="updateValue"
+      v-on="$listeners"
     />
   </div>
 </template>

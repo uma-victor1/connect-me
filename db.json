@@ -382,6 +382,42 @@
       "date": "2021-01-02T08:46:00.000Z",
       "time": "18:00",
       "attendees": []
+    },
+    {
+      "id": 1120192,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Responsive landing page made using just flexbox",
+      "description": "what ami doijng",
+      "location": "okoto, wahala",
+      "date": "2021-01-01T09:50:00.000Z",
+      "time": "21:00",
+      "attendees": []
+    },
+    {
+      "id": 4508562,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "sustainability",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Todo",
+      "description": "what ami doijng",
+      "location": "",
+      "date": "",
+      "time": "19:00",
+      "attendees": []
     }
   ]
 }

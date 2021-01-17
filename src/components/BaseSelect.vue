@@ -15,9 +15,10 @@
         :key="option.id"
         :value="option"
         :selected="option === value"
-        >{{ option }}</option
-      ></select
-    >
+      >
+        {{ option }}
+      </option>
+    </select>
   </div>
 </template>
 
